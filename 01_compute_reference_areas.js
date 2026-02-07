@@ -9,7 +9,7 @@ var version_output = 2;
 var classes = [3, 4, 11, 12, 15, 18, 25, 33];
 
 // output directory
-var output_dir = 'users/dh-conciani/wetlands-fapesp-sp';
+var output_dir = 'users/deisejunqueira/AUGI-MAP';
 
 // read study area
 var carta = ee.FeatureCollection('projects/ee-deisejunqueira/assets/DepressaoPeriferica');
