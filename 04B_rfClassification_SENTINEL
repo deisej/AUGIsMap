@@ -8,7 +8,7 @@ var file_name_out = 'depressaoPeriferica';
 var mosaic_name = 'SENTINEL';
 
 // output directory
-var output_dir = 'users/deisejunqueira/AUGI-MAP/classification';
+var output_dir = 'projects/ee-deisejunqueira/assets/AUGI-MAP/classification/depressaoPeriferica_classification_SENTINEL_v2';
 
 // define strings to be used as metadata
 var samples_version = 2;   // input training samples version
