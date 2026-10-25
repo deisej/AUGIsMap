@@ -1,4 +1,4 @@
-// -- -- -- -- 06_spatialFilter
+// --- --- --- 06_spatialFilter --- --- --- 
 // post-processing filter: spatial filter to define a minimum area
 
 // Import mapbiomas color schema 
