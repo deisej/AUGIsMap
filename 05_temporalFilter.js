@@ -1,4 +1,4 @@
-// --- --- --- 05_temporal --- --- --- 
+// --- --- --- 05_temporal_filter --- --- --- 
 /// post-processing filter: apply a temporal consistency filter to land use land cover classification maps,
 // correcting short-term spurious transitions and stabilizing the first and last years 
 // of the time series (2017–2024). This includes the removal of implausible class changes, 
