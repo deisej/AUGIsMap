@@ -1,3 +1,5 @@
+// --- --- --- 07 check_Classification --- --- ---
+
 // load collection
 var embeddings = ee.Image('projects/ee-deisejunqueira/assets/AUGI-MAP/classification/depressaoPeriferica_classification_EMBEDDINGS_v2')
 var temporal = ee.Image('projects/ee-deisejunqueira/assets/AUGI-MAP/classification/depressaoPeriferica_classification_EMBEDDINGS_v2_temporal_v2')
