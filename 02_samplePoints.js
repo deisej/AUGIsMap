@@ -1,4 +1,5 @@
 // sort stratified spatialPoints to use as training samples
+// dhemerson.costa@ipam.org.br
 
 // define string to use as metadata
 var version = 2;
