@@ -1,5 +1,4 @@
 // Run smileRandomForest classifier
-// dhemerson.costa@ipam.org.br
 
 // define ibges' carta id
 var file_name = 'depressaoPeriferica';
