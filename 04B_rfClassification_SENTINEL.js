@@ -1,3 +1,4 @@
+//--- --- --- 04B rf_classification SENTINEL --- --- ---
 // Run smileRandomForest classifier
 // dhemerson.costa@ipam.org.br
 
