@@ -1,4 +1,4 @@
-// compute areas to be used as reference to sort the number of per class samples
+// --- --- --- 01 compute areas to be used as reference to sort the number of per class samples --- --- ---
 
 var file_name = 'depressaoPeriferica'
 
