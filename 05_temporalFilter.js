@@ -3,7 +3,7 @@
 // correcting short-term spurious transitions and stabilizing the first and last years 
 // of the time series (2017–2024). This includes the removal of implausible class changes, 
 // correction of isolated transitions, and exclusion of small patches of recent regrowth.
-// barbara.silva@ipam.org.br, dhemerson.costa@ipam.org.br and ana.souza@ipam.org.br
+// CÓDIGO REFERÊNCIA EXTRAÍDO DE MAPBIOMAS CERRADO
 
 // Import mapbiomas color schema 
 var vis = {
