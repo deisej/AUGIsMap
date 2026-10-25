@@ -1,8 +1,9 @@
-// --- --- --- 05_temporal
-// post-processing filter: apply a temporal consistency filter to land use land cover classification maps,
+// --- --- --- 05_temporal --- --- --- 
+/// post-processing filter: apply a temporal consistency filter to land use land cover classification maps,
 // correcting short-term spurious transitions and stabilizing the first and last years 
 // of the time series (2017–2024). This includes the removal of implausible class changes, 
 // correction of isolated transitions, and exclusion of small patches of recent regrowth.
+// barbara.silva@ipam.org.br, dhemerson.costa@ipam.org.br and ana.souza@ipam.org.br
 
 // Import mapbiomas color schema 
 var vis = {
