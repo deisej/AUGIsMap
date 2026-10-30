@@ -8,14 +8,6 @@
 // 4. Três mapas binários de 2024.
 // 5. Dois mapas de mudanças de 2024.
 // 6. Um mapa de cobertura de 2024.
-//
-// COMO EXECUTAR:
-// Clique em Run e execute as 9 tarefas na aba Tasks.
-// Os arquivos serão enviados para o Google Drive.
-//
-// AUGI = classe 9.
-// Este script apenas lê os assets, sem aplicar novamente filtros.
-// ============================================================
 
 
 // ============================================================
@@ -69,8 +61,7 @@ var pastaDrive = 'AUGI_EFEITO_FILTROS';
 // a grade nativa de cada asset.
 //
 // A reamostragem categórica usa o padrão do GEE:
-// vizinho mais próximo. Não usar bilinear ou bicúbica.
-
+// vizinho mais próximo
 var crs = 'EPSG:31983';
 
 var transformacao = [
@@ -278,9 +269,6 @@ anos.forEach(function(ano) {
   // Mantida: AUGI antes e depois.
   // Retirada: AUGI antes, outra classe depois.
   // Acrescentada: outra classe antes, AUGI depois.
-  //
-  // Todas as mudanças são medidas na cobertura comum.
-  // Retirada não significa, por si só, correção de erro.
   // ==========================================================
 
   var comparacoes = [
