@@ -1,7 +1,6 @@
 // ============================================================
 // CAPÍTULO 2 — ETAPA 1
-// Conferir bandas, projeções e grades dos mapas existentes.
-// Não refaz treinamento nem modifica os Assets.
+// Conferência de bandas, projeções e grades dos mapas existentes.
 // ============================================================
 
 var raiz =
@@ -53,7 +52,6 @@ produtos.forEach(function(produto) {
     var existe = bandas.contains(banda);
 
     // Imagem auxiliar apenas para permitir registrar
-    // uma eventual banda ausente sem interromper a conferência.
     var anual = ee.Image(
       ee.Algorithms.If(
         existe,
@@ -85,7 +83,7 @@ produtos.forEach(function(produto) {
 
   });
 
-  // Mostrar a projeção de 2024 separadamente.
+  // Mostra a projeção de 2024 separadamente.
   print(
     produto.nome + ' — projeção de 2024:',
     imagem.select('classification_2024').projection()
@@ -103,7 +101,6 @@ produtos.forEach(function(produto) {
   );
 
   // Máscara original: áreas com dados disponíveis.
-  // Não usar selfMask na classificação antes de conferir cobertura.
   Map.addLayer(
     imagem.select('classification_2024')
       .mask()
