@@ -1,4 +1,4 @@
-## --- --- --- 10A getBuffer 500m --- --- ---
+## --- --- --- 10B Translate_Buffer 500m --- --- ---
 
 library(dplyr)
 options(scipen=9e3)
