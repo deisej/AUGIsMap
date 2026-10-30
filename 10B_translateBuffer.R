@@ -1,3 +1,5 @@
+## --- --- --- 10A getBuffer 500m --- --- ---
+
 library(dplyr)
 options(scipen=9e3)
 
