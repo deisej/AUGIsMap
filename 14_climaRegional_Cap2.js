@@ -6,9 +6,7 @@
 // Exportações:
 // 1. Dados mensais 1991–2024 com anomalias
 // 2. Dados anuais 1991–2024 com anomalias
-// 3. Referência mensal 1991–2020
-//
-// Não altera os mapas nem utiliza dist_river.
+// 3. Referência mensal 1991–2020.
 // ============================================================
 
 // 1. ÁREA DE ESTUDO
@@ -31,7 +29,6 @@ var fonte = ee.ImageCollection('ECMWF/ERA5_LAND/MONTHLY_AGGR')
   .sort('system:time_start');
 
 // Objeto completo de projeção.
-// Não usar projecao.transform() como crsTransform.
 var projecao = ee.Image(fonte.first())
   .select('temperature_2m')
   .projection();
@@ -120,15 +117,12 @@ var tabelaMensal = ee.FeatureCollection(
 ).sort('data');
 
 // 6. EXPORTAÇÃO DOS DADOS MENSAIS
-// Referências, anomalias e agregações anuais serão
-// calculadas posteriormente a partir deste CSV.
-
 // Consulta pequena para verificar a extração.
 print('Teste — janeiro de 2017',
   tabelaMensal.filter(ee.Filter.eq('data', '2017-01'))
 );
 
-// Exportação completa: esperado 408 registros.
+// Exportação completa
 Export.table.toDrive({
   collection: tabelaMensal,
   description: 'CAP2_CLIMA_MENSAL_DPP_1991_2024_v3',
