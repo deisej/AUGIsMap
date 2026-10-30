@@ -1,5 +1,5 @@
 // --- --- --- AUDITORIA LOCAL — AUD_10 E AUD_22 --- --- --- 
-// Compara temporal e final; não modifica os assets.
+// Compara temporal e final
 
 var root =
   'projects/ee-deisejunqueira/assets/AUGI-MAP/classification/';
