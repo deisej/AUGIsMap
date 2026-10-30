@@ -148,8 +148,7 @@ Export.table.toDrive({
 });
 
 // COMPLEMENTO — PONTOS PARA INSPEÇÃO DOS FILTROS
-// Cole abaixo do código anterior.
-// Amostra exploratória de pixels; não é uma nova validação.
+// Amostra exploratória de pixels
 
 // Grupos exclusivos entre si:
 // 1: ganho bruto removido pelo temporal em 2024;
