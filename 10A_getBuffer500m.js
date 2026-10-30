@@ -1,3 +1,5 @@
+// --- --- --- 10A getBuffer 500m --- --- ---
+
 // get area by territory 
 
 // an adaptation from:
