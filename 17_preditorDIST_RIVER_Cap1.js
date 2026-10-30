@@ -1,6 +1,5 @@
 // ============================================================
 // DIAGNÓSTICO DO PREDITOR dist_river — CAPÍTULO 1
-// Não altera treinamento, classificações ou assets.
 // ============================================================
 
 // 1. Caminhos
@@ -41,8 +40,6 @@ print(
   rios.size()
 );
 
-// A projeção declarada, isoladamente, não demonstra
-// a grade efetiva utilizada nas execuções anteriores.
 
 // 4. Distância em metros ao mesmo vetor hidrográfico
 var distanciaMetros = rios.distance({
@@ -174,6 +171,3 @@ Export.table.toDrive({
 // dist_vetor_m = -9999:
 // Ausência de geometria desse vetor no raio de busca.
 // Não significa ausência de rios reais.
-//
-// Não substituir dist_river nos classificadores
-// antes de avaliar os resultados deste diagnóstico.
