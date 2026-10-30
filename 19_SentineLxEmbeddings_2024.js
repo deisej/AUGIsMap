@@ -84,7 +84,6 @@ imprimirArea('Embeddings', augiEmbeddings);
 //
 // Cada marca indica presença de pelo menos um pixel da classe 9.
 // O raio de 1 km torna as ocorrências visíveis na extensão da DPP.
-// NÃO calcular área nem tamanho de manchas a partir destas imagens.
 
 var raioDestaqueMetros = 1000;
 
@@ -252,10 +251,6 @@ Export.image.toDrive({
 
 
 // 9. EXPORTAR PIXELS ORIGINAIS PARA OS RECORTES NO QGIS
-//
-// Escala de 10 m: mantém o produto original.
-// Exporta a Bacia do Corumbataí como área inicial de trabalho.
-// No QGIS, escolheremos o MESMO recorte menor nos dois rasters.
 
 Export.image.toDrive({
   image: augiSentinel
