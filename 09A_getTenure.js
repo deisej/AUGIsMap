@@ -1,3 +1,4 @@
+// --- --- --- 09A getTenure --- --- --- 
 // get area by territory 
 
 // an adaptation from:
