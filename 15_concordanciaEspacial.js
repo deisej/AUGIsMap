@@ -191,7 +191,6 @@ produtos.forEach(function(produto) {
 // ============================================================
 
 // Cada produto usa sua cobertura fixa de 2018–2024.
-// Assim, a ausência de dados não vira perda de detecção.
 
 var linhasMudancas = [];
 
@@ -328,9 +327,6 @@ pares.forEach(function(par) {
 // ============================================================
 // 7. EXPORTAR OS TRÊS RESULTADOS
 // ============================================================
-
-// Evitar imprimir as tabelas calculadas no Console:
-// as reduções regionais serão executadas nas tarefas de exportação.
 
 Export.table.toDrive({
   collection: ee.FeatureCollection(linhasAreas),
