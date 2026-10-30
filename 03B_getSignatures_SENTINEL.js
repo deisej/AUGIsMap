@@ -1,4 +1,4 @@
-// --- --- --- 03B getSignatures_Sentinel
+// --- --- --- 03B getSignatures_Sentinel --- --- --- 
 // training samples
 
 // define string to use as metadata
